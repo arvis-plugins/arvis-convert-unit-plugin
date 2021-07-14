@@ -5,13 +5,19 @@
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![GitHub issues](https://img.shields.io/github/issues/jopemachine/arvis-convert-unit-plugin.svg)](https://GitHub.com/jopemachine/arvis-convert-unit-plugin/issues/)
 
-Convert units easily by Arvis
+Convert units easily in [Arvis](https://github.com/jopemachine/arvis)
 
 ![](./media/demo1.png)
 
 ![](./media/demo2.png)
 
 ![](./media/demo3.png)
+
+## Installation
+
+```
+$ npm i -g arvis-convert-unit-plugin
+```
 
 ## Related
 
@@ -22,5 +28,7 @@ Convert units easily by Arvis
 - [other plugins](https://github.com/jopemachine/arvis/blob/master/documents/plugin-links.md)
 
 ## Icon source
+
+This plugin uses below icon sources
 
 [iconarchive.com](https://iconarchive.com/show/flatwoken-icons-by-alecive/Apps-Accessories-Media-Converter-icon.html)
