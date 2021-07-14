@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/plugin-schema.json",
+    "creator": "jopemachine",
+    "name": "arvis-convert-unit-plugin",
+    "enabled": true,
+    "description": "Convert units by Arvis",
+    "readme": "",
+    "version": "0.0.2",
+    "webAddress": "https://github.com/jopemachine/arvis-convert-unit-plugin",
+    "main": "index.js",
+    "defaultIcon": "icon.png",
+    "actions": [
+        {
+            "type": "clipboard",
+            "modifiers": "normal",
+            "text": "{query}"
+        }
+    ]
+}

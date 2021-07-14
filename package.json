@@ -1,0 +1,33 @@
+{
+  "name": "arvis-convert-unit-plugin",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup",
+    "prepublishOnly": "arvish-prepublish"
+  },
+  "files": [
+    "icon.png",
+    "arvis-plugin.json",
+    "index.js"
+  ],
+  "keywords": [
+    "arvis",
+    "arvish",
+    "arvis-plugin",
+    "unit",
+    "unit-conversion"
+  ],
+  "author": "jopemachine",
+  "license": "MIT",
+  "description": "Convert units easily by Arvis",
+  "dependencies": {
+    "arvish": ">=0.6.0",
+    "convert-units": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/convert-units": "^2.3.4"
+  }
+}
