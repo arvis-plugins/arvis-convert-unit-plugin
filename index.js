@@ -1,19 +1,15 @@
 const path = require('path');
 const convert = require('convert-units');
 
-const returnEmpty = () => {
-  return { items: [] };
-};
-
 const getPluginItem = ({ inputStr }) => {
   const items = [];
-  if (!inputStr) returnEmpty();
+  if (!inputStr) return { items: [] };
 
   const [targetNumAndUnit, ...others] = inputStr.split(' ');
   const num = Number(targetNumAndUnit.match(/\d+/g));
-  if (!num) returnEmpty();
+  if (!num) return { items: [] };
   const unit = targetNumAndUnit.split(num)[1];
-  if (!unit) returnEmpty();
+  if (!unit) return { items: [] };
   const possibleUnits = convert().from(unit).possibilities();
 
   if (!others || others.length === 0) {
@@ -51,8 +47,6 @@ const getPluginItem = ({ inputStr }) => {
         path: `${__dirname}${path.sep}icon.png`,
       },
     });
-  } else {
-    returnEmpty();
   }
 
   return {
