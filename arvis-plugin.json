@@ -5,8 +5,8 @@
     "enabled": true,
     "description": "Convert units by Arvis",
     "readme": "",
-    "version": "0.0.3",
-    "webAddress": "https://github.com/jopemachine/arvis-convert-unit-plugin",
+    "version": "0.0.4",
+    "webAddress": "https://github.com/arvis-plugins/arvis-convert-unit-plugin",
     "main": "index.js",
     "defaultIcon": "icon.png",
     "actions": [

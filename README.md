@@ -21,7 +21,7 @@ $ npm i -g arvis-convert-unit-plugin
 
 ## Related
 
-* [convert-units](https://github.com/convert-units/convert-units) - API for this module.
+- [convert-units](https://github.com/convert-units/convert-units) - API for this module.
 
 - [arvish](https://github.com/jopemachine/arvish) - Arvis workflow, plugin creator tools
 

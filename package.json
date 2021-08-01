@@ -1,6 +1,6 @@
 {
   "name": "arvis-convert-unit-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "description": "Convert units easily by Arvis",
   "dependencies": {
-    "arvish": ">=0.6.0",
+    "arvish": ">=0.7.0",
     "convert-units": "^2.3.4"
   },
   "devDependencies": {
